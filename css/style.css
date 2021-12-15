@@ -11,12 +11,9 @@
 }
 
 .promo {
+   padding: 71px 0 62px;
    height: 800px;
    background: url('../img/main_bg.jpg') center center/cover no-repeat;
-}
-
-.logo {
-   margin-top: 75px;
 }
 
 .logo .logo_img {
