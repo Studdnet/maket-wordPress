@@ -2,16 +2,20 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   overflow: hidden;
+}
+
+body {
+   
 }
 
 .container {
-   width: 1140px;
+   height: 100%;
+   max-width: 1140px;
    margin: 0 auto;
 }
 
 .promo {
-   padding: 71px 0 62px;
+   padding: 39px 0 62px;
    height: 800px;
    background: url('../img/main_bg.jpg') center center/cover no-repeat;
 }
@@ -32,3 +36,96 @@
    line-height: 24px;
    color: white;
 }
+
+h1 {
+   margin-top: 53px;
+}
+
+.title {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 41px;
+   line-height: 41px;
+   text-align: center;
+   color: #F9BF3B;
+   text-transform: uppercase;
+}
+
+h2.title {
+   margin-top: 20.5px;
+}
+
+h2.title_big {
+   margin-top: 20.5px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 80px;
+   line-height: 80px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.promo .promo_text {
+   margin-top: 22.5px;
+   padding: 0 5px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 28px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.promo .promo_text span {
+   color: #F9BF3B;
+   text-transform: uppercase;
+}
+
+.promo .promo_btn {
+   display: block;
+   margin: 0 auto;
+   margin-top: 73px;
+   width: 313px;
+   height: 72px;
+   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+   border: 4px solid rgba(0, 0, 0, 0.23);
+   text-align: center;
+   text-transform: uppercase;
+   font-family: RobotoCondensed;
+   color: #FFFFFF;
+   font-size: 21px;
+   line-height: 24px;
+   font-weight: 400;
+   cursor: pointer;
+   outline: none;
+}
+
+.promo .promo_btn:hover {
+   background-image: linear-gradient(to top, #2798b9 0%, #2b7b91 100%);
+}
+
+.more {
+   margin-top: 70.5px;
+}
+
+.more .more_text {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.more .more_arrows {
+   display: block;
+   margin: 0 auto;
+   margin-top: 13px;
+}
+
