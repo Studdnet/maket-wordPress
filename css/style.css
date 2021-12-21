@@ -363,3 +363,28 @@ h2.title_big {
    line-height: 20px;
    color: #4A4A4A;
 }
+
+.footer {
+   padding-top: 40px;
+   min-height: 150px;
+   background: #1A1A1A;
+   color: #888888;
+}
+
+.footer .footer_wrapper p {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 31px;
+   text-align: center;
+}
+
+.footer .footer_wrapper a {
+   text-decoration: none;
+   color: #888888;
+}
+
+.footer .footer_wrapper .footer_support, .footer .footer_wrapper .footer_politic {
+   text-decoration: underline;
+}
